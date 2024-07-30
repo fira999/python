@@ -1,0 +1,13 @@
+# a simple distance converter 
+si = input("enter (k) for km and (m) for mile : ")
+distance = float(input("enter the distance :" ))
+km_to_mile = distance*0.62
+mile_to_km = distance/0.62
+
+
+if si == "k":
+  print(km_to_mile)
+elif si == "m":
+    print(mile_to_km)
+else :
+ print("try again")  

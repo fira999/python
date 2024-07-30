@@ -1,0 +1,18 @@
+#a simple calculator with python
+num0=float(input("enter the first number :"))
+op=input("enter operator :")
+num2=float(input("enter the second number :"))
+sum = num0 + num2
+difference = num0 - num2
+product = num0 * num2
+quotient = num0 / num2
+if op == "+":
+    print(sum)
+elif op == "-":
+    print(difference)
+elif op == "/":
+    print(quotient)
+elif op == "*":
+    print(product) 
+else:
+      print("syntax error")
